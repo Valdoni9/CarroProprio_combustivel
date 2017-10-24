@@ -1,0 +1,40 @@
+
+public class AppCarro {
+
+    public static void main(String[] args) {
+      
+        Carro c1;
+        c1 = new Carro();
+        c1.setAbastecer(50);
+        c1.setMover(200);
+        
+        
+        Carro c2;
+        c2 = new Carro();
+        c2.setAbastecer(30);
+        c2.setMover(400);
+       
+      
+            System.out.println("Primeiro carro");
+                System.out.println("Abasteceu: " + c1.getAbastecer() + " Litros");
+                System.out.println("Quantos km ele colocou pra rodar: " + c1.getMover()+"Km");
+                System.out.println("Distancia por litro: " + c1.getResultl()+"L");
+                System.out.println("Total do Combustivel: " + c1.getResultk()+"L");
+                System.out.println("Distancia percorrida: " + c1.getKmrodado());
+                
+            System.out.println("-----------------------------------------------------");
+            
+            System.out.println("Segundo carro");
+                System.out.println("Abasteceu:  " + c2.getAbastecer()+ " Litros");
+                System.out.println("Quantos km ele colocou pra rodar:  " + c2.getMover()+"Km");
+                System.out.println("Distancia por litro " + c2.getResultl()+"L");
+                System.out.println("Total do Combustivel: " + c2.getResultk()+"L");
+                System.out.println("Distancia percorrida: " + c2.getKmrodado());
+                
+        
+        
+       
+        
+    }
+    
+}
